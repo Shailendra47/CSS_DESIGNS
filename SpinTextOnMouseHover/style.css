@@ -13,7 +13,7 @@ ul {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
 }
- ul li {
+ul li {
     list-style-type: none;
     color: #fff;
     float: left;
@@ -22,15 +22,15 @@ ul {
     transition: .9s;
 
  }
- ul:hover li{
+ul:hover li{
     transform: rotateY(360deg)
  }
- ul:hover li:nth-child(1) {
+ul:hover li:nth-child(1) {
     transition-delay: .9s;
  }
- ul:hover li:nth-child(2) {
+ul:hover li:nth-child(2) {
     transition-delay: .6s;
  }
- ul:hover li:nth-child(3) {
+ul:hover li:nth-child(3) {
     transition-delay: .3s;
  }
