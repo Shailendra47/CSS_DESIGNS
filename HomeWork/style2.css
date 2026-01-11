@@ -1,0 +1,31 @@
+* {
+    text-align: center ;
+}
+#mainId {
+    color: blue;
+}
+h1, h3, h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    color: #ffffff;
+    background-color: cornflowerblue;
+}
+div > button {
+    background-color: purple;
+    color: azure;
+}
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(3n) {
+    background-color: yellow;
+    color: #b29bb2;
+}
+h1::first-letter {
+    color: red;
+}
+input[type="checkbox"] :checked label {
+    color: darkgreen;
+}

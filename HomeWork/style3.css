@@ -1,0 +1,23 @@
+.container {
+    height: 150px;
+    width: 300px;
+    background-color: rgb(127, 123, 123);
+    /* TOP RIGHT BOTTOM LEFT */
+    margin: 20px 1em 40px  2em;
+    padding: 1em;
+    font-style: italic;
+}
+.content {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(230, 171, 181);
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1em 1em;
+}
+.list > p {
+    display: inline-block;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

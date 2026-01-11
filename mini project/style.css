@@ -1,0 +1,41 @@
+.container {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #ffa511;
+    border: 2px solid #ffa511;
+    margin: 10px auto;
+}
+.box {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 30px;   
+}
+
+#mouth {
+    background-color: brown;
+    border: 2px soild rgb(206, 101, 119);
+    height: 80px;
+    width: 200px;
+    margin: 10px auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+#leye {
+    position: relative;
+    top: 60px;
+    left: 35px;
+    background-color: black;  
+}
+#reye {
+    position: relative;
+    top: 60px;
+    left: 68px;
+    background-color: black;
+}
